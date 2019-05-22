@@ -2,7 +2,21 @@
 body {
   padding-top: 3.5rem;
 }
-.column{
+
+ {
+  box-sizing: border-box;
+}
+
+.container
+{
     float: left;
   width: 25%;
+     padding: 10px;
+  height: 300px;
+}
+
+.row:  after {
+  content: "";
+  display: table;
+   clear: both;
 }
